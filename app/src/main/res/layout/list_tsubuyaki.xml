@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--ID-->
+    <TextView
+        android:id="@+id/list_tsubuyaki_id_txv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginRight="@dimen/list_tsubuyaki_txv_margin"
+        android:textColor="@color/listTextColor"/>
+
+    <!--コメント-->
+    <TextView
+        android:id="@+id/list_tsubuyaki_comment_txv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/listTextColor"/>
+
+</LinearLayout>
